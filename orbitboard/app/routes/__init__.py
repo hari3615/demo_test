@@ -1,0 +1,10 @@
+from .auth import router as auth_router
+from .projects import router as project_router
+from .tasks import router as task_router
+from .comments import router as comment_router
+from .search import router as search_router
+from .admin import router as admin_router
+from .rbac import router as rbac_router
+from .audit import router as audit_router
+from .webhooks import router as webhook_router
+from .plugins import router as plugin_router
